@@ -27,8 +27,8 @@
 7. // $routes->match('get', 'home/tambah', 'Home::tambah'); perbaikan
     $routes->match(['get', 'post'], 'home/tambah', 'Home::tambah');
 
-8. // <!--   <input type="text" name="namaa"><br> name inputnya salah dicontrollernya itu nama bukan namaa  -->
-    <!-- <input type="text" name="nama"><br> -->
+8. <input type="text" name="namaa"><br> name inputnya salah dicontrollernya itu nama bukan namaa 
+     <input type="text" name="nama"><br>
 9. // <!-- // <input type="text" name="nama" required><br> tambahan, lebih baik tambahkan required agar form tidak boleh kosong -->
 
 10.   <!-- <button>Kirim</button> menambahkan type submit -->
